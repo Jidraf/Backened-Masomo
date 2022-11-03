@@ -23,7 +23,7 @@ end
     seeded_teachers = Teacher.create(
         teacher_name: Faker::Name.name,
         specialization: ['Software Enginerring','Data Science','Finance','Psycology','DevOps'].sample,
-        teacher_gender: ['male','famale'].sample
+        teacher_gender: ['male','female'].sample
     )
 end
 
